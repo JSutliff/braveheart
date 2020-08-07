@@ -23,6 +23,10 @@ header a {
   color: rgb(238, 196, 74);
 }
 
+header a:hover {
+  color: rgb(65, 64, 70);
+}
+
 #img-container {
   width: 80%;
   margin: 0 auto;
