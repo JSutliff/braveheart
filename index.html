@@ -3,7 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!-- Open Graph data -->
+    <meta
+      property="og:title"
+      content="Motorcycle shop specializing in Harley Davidsons"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.braveheartcycleco.com" />
+    <meta
+      property="og:image"
+      content="http://braveheartcycleco.com.s3-website-us-west-1.amazonaws.com/harley-parts-maintenance-redding.png"
+    />
+    <meta
+      property="og:description"
+      content="Braveheart Cycle & Co. is a motorcycle shop in Redding, Ca. specializing in Harley Davidsons. We offer service, repair, parts and accessories."
+    />
+
+    <title>
+      Braveheart Cycle & Co. | Motorcycle shop specializing in Harley Davidsons
+      | Redding, Ca. | Service, repair parts and accessories
+    </title>
     <link
       href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap"
       rel="stylesheet"
@@ -14,6 +34,26 @@
       src="https://kit.fontawesome.com/cdb66e7ab9.js"
       crossorigin="anonymous"
     ></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MotorcycleRepair",
+        "name": "Braveheart Cycle & Co.",
+        "image": "http://braveheartcycleco.com.s3-website-us-west-1.amazonaws.com/harley-parts-maintenance-redding.png",
+        "@id": "",
+        "url": "http://braveheartcycleco.com",
+        "telephone": "",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "935 Wall St",
+          "addressLocality": "Redding",
+          "addressRegion": "CA",
+          "postalCode": "96002",
+          "addressCountry": "US"
+        }
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -25,7 +65,7 @@
       ></a>
     </header>
     <div id="img-container">
-      <img src="./logo.png" alt="" />
+      <img src="./harley-parts-maintenance-redding.png" alt="" />
       <h1>
         Redding's premier motorcycle parts, accessories, service and repair
         provider.
